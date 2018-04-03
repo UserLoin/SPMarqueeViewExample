@@ -49,8 +49,8 @@
         [self setupView];
         
         // 设置默认数据
-        self.animationDuration = 2.f;
-        self.pauseDuration = 1.f;
+        self.animationDuration = 1.f;
+        self.pauseDuration = 1.5f;
     }
     return self;
 }
