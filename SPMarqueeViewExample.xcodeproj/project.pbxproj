@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1552FC43207327FB00E166DE /* SPMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1552FC41207327FB00E166DE /* SPMarqueeView.m */; };
+		1552FC44207327FB00E166DE /* SPCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1552FC42207327FB00E166DE /* SPCustomView.m */; };
 		15D5D12A204E7C6300D233AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D5D129204E7C6300D233AE /* AppDelegate.m */; };
 		15D5D12D204E7C6300D233AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15D5D12C204E7C6300D233AE /* ViewController.m */; };
 		15D5D130204E7C6300D233AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15D5D12E204E7C6300D233AE /* Main.storyboard */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1552FC3F207327FB00E166DE /* SPMarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPMarqueeView.h; sourceTree = "<group>"; };
+		1552FC40207327FB00E166DE /* SPCustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCustomView.h; sourceTree = "<group>"; };
+		1552FC41207327FB00E166DE /* SPMarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPMarqueeView.m; sourceTree = "<group>"; };
+		1552FC42207327FB00E166DE /* SPCustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCustomView.m; sourceTree = "<group>"; };
 		15D5D125204E7C6300D233AE /* SPMarqueeViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPMarqueeViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D5D128204E7C6300D233AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		15D5D129204E7C6300D233AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +107,10 @@
 		15D5D127204E7C6300D233AE /* SPMarqueeViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				1552FC3F207327FB00E166DE /* SPMarqueeView.h */,
+				1552FC41207327FB00E166DE /* SPMarqueeView.m */,
+				1552FC40207327FB00E166DE /* SPCustomView.h */,
+				1552FC42207327FB00E166DE /* SPCustomView.m */,
 				15D5D128204E7C6300D233AE /* AppDelegate.h */,
 				15D5D129204E7C6300D233AE /* AppDelegate.m */,
 				15D5D12B204E7C6300D233AE /* ViewController.h */,
@@ -265,9 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1552FC43207327FB00E166DE /* SPMarqueeView.m in Sources */,
 				15D5D12D204E7C6300D233AE /* ViewController.m in Sources */,
 				15D5D138204E7C6300D233AE /* main.m in Sources */,
 				15D5D12A204E7C6300D233AE /* AppDelegate.m in Sources */,
+				1552FC44207327FB00E166DE /* SPCustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
